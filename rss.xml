@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>My First Book</title>
+        <link>undefined</link>
+        <description></description>
+        <lastBuildDate>Sun, 17 Dec 2023 07:32:05 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Hello World]]></title>
+            <link>undefined/</link>
+            <guid>undefined/</guid>
+            <content:encoded><![CDATA[<h1 id="hello-world" tabindex="-1">Hello World <a class="header-anchor" href="#hello-world" aria-label="Permalink to &quot;Hello World&quot;">&ZeroWidthSpace;</a></h1>
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>
