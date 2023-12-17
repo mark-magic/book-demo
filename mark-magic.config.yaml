@@ -1,0 +1,25 @@
+# mark-magic.config.yaml
+tasks:
+  - name: epub
+    input:
+      name: '@mark-magic/plugin-local'
+      config:
+        path: ./books/
+    output:
+      name: '@mark-magic/plugin-epub'
+      config:
+        path: ./dist/my-book.epub
+        id: my-book
+        title: My First Book
+        creator: Mark Magic
+  - name: docs
+    input:
+      name: '@mark-magic/plugin-local'
+      config:
+        path: ./books/
+    output:
+      name: '@mark-magic/plugin-docs'
+      config:
+        path: ./dist/docs/
+        name: 'My First Book'
+        base: '/book-demo/'

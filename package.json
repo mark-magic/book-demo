@@ -1,0 +1,20 @@
+{
+  "name": "my-book",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "mark-magic"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@mark-magic/cli": "^0.8.0",
+    "@mark-magic/plugin-docs": "^0.8.0",
+    "@mark-magic/plugin-epub": "^0.8.0",
+    "@mark-magic/plugin-local": "^0.8.0",
+    "live-server": "^1.2.2"
+  }
+}
